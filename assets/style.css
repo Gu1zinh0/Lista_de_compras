@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Exo:ital,wght@0,100..900;1,100..900&family=Indie+Flower&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    background: linear-gradient(177.52deg, #91a5ad7c 2.11%, #67727A 81.34%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+}
+
+h2, footer {
+    font-family: 'Mansalva';
+}
+
+button {
+    border: none;
+}
+
+.title_{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    margin-top: 0;
+}
+
+.title_ h1 {
+    color: #274a94;
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.itens-comprados {
+text-decoration: line-through;
+}
+
+.borda-lista {
+    border-bottom: dotted 2px #404042;
+}
+
+input:disabled {
+    border: none;
+    background: none;
+    color: black;
+}
+
+input {
+    border: none;
+    background: none;
+    color: black;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    background: #0d0d0d;
+}
+
+.rodape h1{
+    color: #a4b6be;
+    font-family: 'Exo';
+}
